@@ -25,8 +25,3 @@ radio_circulo = float(input("Ingrese el radio del círculo: "))
 # Validar y calcular
 es_valido = radio_circulo > 0  # Booleano para verificar validez
 
-if es_valido:
-    resultado = calcular_area_circulo(radio_circulo)
-    print(f"El área del círculo con radio {radio_circulo} es: {resultado:.2f}")
-else:
-    print("Por favor, ingrese un número positivo.")
