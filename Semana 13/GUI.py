@@ -1,5 +1,5 @@
 import tkinter as tk
-
+#tarea semana 13
 # Función para agregar una tarea
 def agregar_tarea():
     tarea = entry_tarea.get()
